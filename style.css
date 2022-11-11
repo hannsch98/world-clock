@@ -3,6 +3,19 @@ body {
 	color: #ffffff;
 }
 
+h1 {
+	text-align: center;
+}
+
 a {
 	color: #ffffff;
+}
+
+footer {
+	font-family: "Courier New", Courier, monospace;
+	border-top: 1px solid var(--primary-color);
+	border-bottom: 1px solid var(--primary-color);
+	margin: 30px auto 0;
+	text-align: center;
+	width: 50%;
 }
