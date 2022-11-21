@@ -1,6 +1,11 @@
+:root {
+	--primary-color: #b00b69;
+	--primary-light: #f9dbec;
+	--secondary-color: #f0f8ff;
+}
+
 body {
-	background-color: #b00b68ac;
-	color: #ffffff;
+	background-color: var(--primary-light);
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 	margin: 50px auto;
 	width: 500px;
@@ -11,7 +16,12 @@ h1 {
 }
 
 a {
-	color: #ffffff;
+	color: var(--primary-color);
+}
+
+a:hover {
+	background-color: var(--primary-color);
+	color: var(--secondary-color);
 }
 
 select {
@@ -30,15 +40,15 @@ footer {
 }
 
 .container {
-	background-color: aliceblue;
+	background-color: var(--secondary-color);
 	border-radius: 25px;
-	color: #b00b69;
+	color: var(--primary-color);
 	padding: 10px 20px;
 	box-shadow: 1px 1px 10px 15px rgba(0, 0, 0, 0.2);
 }
 
 .city {
-	border-bottom: 1px dashed #b00b69;
+	border-bottom: 1px dashed var(--primary-color);
 	display: flex;
 	justify-content: space-between;
 	padding: 20px 0;
