@@ -62,6 +62,10 @@ footer {
 	margin: 0;
 }
 
+.date {
+	margin-top: 5px;
+}
+
 .time {
 	font-size: 32px;
 }
